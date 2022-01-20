@@ -9,6 +9,7 @@ const Greetings = () => {
                     <h1>Hi I'm Aseem Mishra</h1>
                 </div>
                 <Navbar/>
+                
             </div>
         </div>
     )

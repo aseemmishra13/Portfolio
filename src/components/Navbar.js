@@ -11,14 +11,30 @@ const Navbar = () => {
                 </div>
                 <ul id='navigation'>
                     <li><a href='#'>Contact</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    
                 </ul>
             </div>
             <div className='left-column'>
-                left column
+                <img src='images/Aseem.png' id = 'profile_pic'/>
+                <h5 style = {{textAlign:'center',lineHeight:0}}>Personalize Theme</h5>
+                <div id='theme-option-wrapper'>
+                    <div className='theme-dot' id='light-mode'></div>
+                    <div className='theme-dot' id='blue-mode'></div>
+                    <div className='theme-dot' id='green-mode'></div>
+                    <div className='theme-dot' id='purple-mode'></div>
+
+                </div>
+                < p id='setting-note'>*Theme will be saved for<br></br> your next visit</p>
             </div>
             <div className='right-column'>
-                right column
+                <div id='preview-shadow'>
+                <div id='preview'>
+                    <h3>What I do</h3>
+                    <p>
+                        I am professional full stack web developer
+                    </p>
+                </div>
+                </div>
             </div>
             
         </div>
