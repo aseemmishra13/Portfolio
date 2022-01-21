@@ -15,13 +15,13 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='left-column'>
-                <img src='images/Aseem.png' id = 'profile_pic'/>
+                <img src='images/Aseem.png' alt='profile' id = 'profile_pic'/>
                 <h5 style = {{textAlign:'center',lineHeight:0}}>Personalize Theme</h5>
                 <div id='theme-option-wrapper'>
-                    <div className='theme-dot' id='light-mode'></div>
-                    <div className='theme-dot' id='blue-mode'></div>
-                    <div className='theme-dot' id='green-mode'></div>
-                    <div className='theme-dot' id='purple-mode'></div>
+                    <div data-mode='light' className='theme-dot' id='light-mode'></div>
+                    <div data-mode='blue' className='theme-dot' id='blue-mode'></div>
+                    <div data-mode='green' className='theme-dot' id='green-mode'></div>
+                    <div data-mode='purple' className='theme-dot' id='purple-mode'></div>
 
                 </div>
                 < p id='setting-note'>*Theme will be saved for<br></br> your next visit</p>
