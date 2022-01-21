@@ -24,6 +24,7 @@ const Contact = () => {
 				<textarea className="input-field" name="message"></textarea>
 				<input type="hidden" name="_next" value="#"></input>
 				<input type="text" name="_honey" style={{display:'none'}}></input>
+				<input type="hidden" name="_captcha" value="false"></input>
 
 				<input id="submit-btn" type="submit" value="Send"/>
 			</form>
