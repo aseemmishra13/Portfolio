@@ -8,7 +8,7 @@ const Contact = () => {
             <a href=""></a>
 			<h3 style={{textAlign: 'center'}}>Get In Touch</h3>
 
-			<form id="contact-form" action="https://formsubmit.co/mishraaseem05@gmail.com" method="POST">
+			<form id="contact-form" action="mailto:mishraaseem05@gmail.com" method="POST">
 				<a name="contact"></a>
 
 				<label>Name</label>
@@ -22,9 +22,9 @@ const Contact = () => {
 
 				<label>Message</label>
 				<textarea className="input-field" name="message"></textarea>
-				<input type="hidden" name="_next" value="https://aseemmishra13.github.io/Portfolio/"></input>
+				{/* <input type="hidden" name="_next" value="https://aseemmishra13.github.io/Portfolio/"></input>
 			
-				<input type="hidden" name="_captcha" value="false"></input>
+				<input type="hidden" name="_captcha" value="false"></input> */}
 
 				<input id="submit-btn" type="submit" value="Send"/>
 			</form>
