@@ -10,7 +10,7 @@ const Navbar = () => {
                     <div id='dot3' className='browser-dot'></div>
                 </div>
                 <ul id='navigation'>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='#contact-form'>Contact</a></li>
                     
                 </ul>
             </div>

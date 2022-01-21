@@ -1,14 +1,14 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Greetings from "./components/Greetings";
 import Protfolio from "./components/Protfolio";
-import './default.css'
-import './green.css'
-import './blue.css'
-import './purple.css'
+
 
 function App() {
+	const [stylePath,setStylePath] = useState(
+		"./default.css"
+	  );
     let themeDots = document.getElementsByClassName('theme-dot')
 	useEffect(()=>{console.log('its working');
 
@@ -43,7 +43,6 @@ function App() {
    },[themeDots])
 	
 return (<div>
-
 
 	<Greetings/>
 	<About/>
