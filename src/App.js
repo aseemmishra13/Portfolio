@@ -6,16 +6,19 @@ import Protfolio from "./components/Protfolio";
 
 
 function App() {
-	const [stylePath,setStylePath] = useState(
-		"./default.css"
-	  );
+
     let themeDots = document.getElementsByClassName('theme-dot')
+    let mode = localStorage.getItem('theme')?localStorage.getItem('theme'):''
+   
 	useEffect(()=>{console.log('its working');
+    if (mode){
+        setTheme(mode)
+    }
 
     console.log(themeDots);
     for (var i=0; themeDots.length > i; i++){
         themeDots[i].addEventListener('click', function(){
-            let mode = this.dataset.mode
+            mode = this.dataset.mode
             console.log('Option clicked:', mode)
             setTheme(mode)
         })
@@ -40,7 +43,7 @@ function App() {
     
         localStorage.setItem('theme', mode)
     }
-   },[themeDots])
+   },[themeDots,mode])
 	
 return (<div>
 

@@ -10,7 +10,11 @@ const Navbar = () => {
                     <div id='dot3' className='browser-dot'></div>
                 </div>
                 <ul id='navigation'>
+                <li><a href='mailto:mishraaseem05@gmail.com'  target="_blank"><i className='fa fa-envelope' aria-hidden="true"></i></a></li>
+                <li><a href='https://github.com/aseemmishra13'  target="_blank"><i className='fab fa-github ' aria-hidden="true"></i></a></li>
+                <li><a href='https://www.linkedin.com/in/aseem-mishra-251706145/'  target="_blank"><i className='fab fa-linkedin' aria-hidden="true"></i></a></li>
                     <li><a href='#contact-form'>Contact</a></li>
+                    
                     
                 </ul>
             </div>
