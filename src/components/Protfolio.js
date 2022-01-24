@@ -13,7 +13,10 @@ const Protfolio = () => {
 						<div className="post-preview">
 							<h6 className="post-title">Developer Connect Social Media App</h6>
 							<p className="post-intro">Designed built & mantained a social media app built with MERN stack</p>
+							<div className='links'>
 							<a href="https://dry-mountain-29166.herokuapp.com/" target="_blank">Live Version</a>
+							<a href="https://github.com/aseemmishra13/DEVCONNECTOR" target="_blank">Code on GitHub</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -24,7 +27,10 @@ const Protfolio = () => {
 						<div className="post-preview">
 							<h6 className="post-title">SuperStore- Ecommerce App</h6>
 							<p className="post-intro">Designed built and maintained an Online store built on MERN stack</p>
+							<div className='links'>
 							<a href="https://superstoreappwastaken.herokuapp.com/" target="_blank">Live Version</a>
+							<a href="https://github.com/aseemmishra13/Superstore" target="_blank">Code on GitHub</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -35,7 +41,10 @@ const Protfolio = () => {
 						<div className="post-preview">
 							<h6 className="post-title">Crypto Currency price Tracker</h6>
 							<p className="post-intro">Designed and built a web app for tracking crypto price in real time using REACTjs</p>
+							<div className='links'>
 							<a href="https://youthful-galileo-crypttotracker.netlify.app/" target="_blank">Live Version</a>
+							<a href="https://github.com/aseemmishra13/CryptoTracker" target="_blank">Code on GitHub</a>
+							</div>
 						</div>
 					</div>
 				</div>
