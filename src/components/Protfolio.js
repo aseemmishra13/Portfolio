@@ -26,7 +26,7 @@ const Protfolio = () => {
 						<img className="thumbnail" src="images/Screenshot 2022-01-18 at 12.18.18 PM.png" />
 						<div className="post-preview">
 							<h6 className="post-title">SuperStore- Ecommerce App</h6>
-							<p className="post-intro">Designed built and maintained an Online store built on MERN stack</p>
+							<p className="post-intro">Designed built and maintained an Online store built on MERN stack with Razerpay integration</p>
 							<div className='links'>
 							<a href="https://superstoreappwastaken.herokuapp.com/" target="_blank">Live Version</a>
 							<a href="https://github.com/aseemmishra13/Superstore" target="_blank">Code on GitHub</a>
